@@ -1,5 +1,5 @@
 # Screen Capture and OCR Project Documentation
-
+![Alt text](img/profilefinal.png)
 ## General Description
 This project allows the user to capture a specific section of the screen using a combination of keys and then process that capture to extract text via OCR (Optical Character Recognition). The application consists of three main components: screen capture, OCR processing, and a graphical interface to display the results.
 
@@ -31,8 +31,13 @@ https://github.com/UB-Mannheim/tesseract/wiki
 
 ## Project Requirements
 
-The `requirements.txt` file contains all the necessary libraries to run the screen capture and OCR project. To install these dependencies, execute the following command in your Python environment: `pip install -r requirements.txt` or alternatively write `pip install -r` and drag the `requirements.txt` file to the console.
+The `requirements.txt` file contains all the necessary libraries to run the screen capture and OCR project. To install these dependencies, execute the following command in your Python environment: 
+```console
+pip install -r requirements.txt
+```
+ or alternatively write `pip install -r` and drag the `requirements.txt` file to the console.
 
+## Package description
 - `pyautogui`: Used for GUI automation and screen capture.
 - `keyboard`: For registering key combinations.
 - `opencv-python`: An image processing library, used here for handling images in OCR.
@@ -42,3 +47,6 @@ The `requirements.txt` file contains all the necessary libraries to run the scre
 
 ### Note:
 `tkinter` usually comes pre-installed with Python, so it's not necessary to install it in most cases.
+
+### Example
+![Alt text](img/example2.png)
