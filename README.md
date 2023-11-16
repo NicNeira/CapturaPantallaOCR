@@ -1,5 +1,8 @@
 # Screen Capture and OCR Project Documentation
-![Alt text](img/profilefinal.png)
+<p align="center">
+  <img src="img/profilefinal.png" width="300" >
+</p>
+
 ## General Description
 This project allows the user to capture a specific section of the screen using a combination of keys and then process that capture to extract text via OCR (Optical Character Recognition). The application consists of three main components: screen capture, OCR processing, and a graphical interface to display the results.
 
